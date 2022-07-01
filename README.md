@@ -1,8 +1,8 @@
 # TUGAS 6
-* Nama      : Risma Diki
+* Nama      : Risma Dika Alvianti
 * Nim       : 312010051
 * kelas     : TI.20.D1
-* Matkul    : Sistem Basis Data
+* Matkul    : Sistem Basis Data TUgas ke 6
 
 # Soal
 1. masuk ke database nama nim
@@ -40,3 +40,9 @@
 ![p](ss/ss7.png)
 
 ![p](ss/ss8.png v)
+
+4. tuliskan script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam
+
+* crontab –e
+0 0 * * 7 myqldump -u root -p risma_dika_alvianti_312010051 > mahasiswa_312010051_backupdata2.sql
+
